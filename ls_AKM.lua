@@ -11,13 +11,14 @@ hook.Add("Initialize", "impulseLSAmmoRifle", function()
 	})
 end)
 
-SWEP.Base = "ls_base2"
+SWEP.Base = "ls_base"
 
 SWEP.PrintName = "AKM"
 SWEP.Category = "Hex's HL2RP Weapons"
 SWEP.IconOverride = ("materials/icons/AKM.jpg")
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
+SWEP.DoEmptyReloadAnim = true
 
 SWEP.HoldType = "ar2"
 
@@ -30,7 +31,6 @@ SWEP.Slot = 1
 SWEP.SlotPos = 1
 
 SWEP.CSMuzzleFlashes = false
-SWEP.MuzzleEffect = "hl2mmod_muzzleflash_smg1"
 SWEP.MuzzleFlashAttachment = "1"
 
 SWEP.ReloadSound = Sound("Weapon_SMG1.Reload")
