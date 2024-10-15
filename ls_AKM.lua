@@ -11,7 +11,7 @@ hook.Add("Initialize", "impulseLSAmmoRifle", function()
 	})
 end)
 
-SWEP.Base = "ls_base"
+SWEP.Base = "ls_base2"
 
 SWEP.PrintName = "AKM"
 SWEP.Category = "Hex's HL2RP Weapons"
